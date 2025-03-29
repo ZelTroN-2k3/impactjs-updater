@@ -1,20 +1,3 @@
-/*
-----------------------------------------------------------------------------
-* DESKTOP VERSION
-* @author PATRICK ANCHER
-* GLOBAL GAME
-*
-* abstract: Game
-* created: 23-04-2024
-* license: do what you want and don't bother me. ;)
-*
-* Copyright (C) 2024 Patrick.A <admin@freelance-addons.net>
-* URL:: http://freelance-addons.net
-* X: @zeltron2k3
-*
-----------------------------------------------------------------------------
-*/
-
 const { execSync } = require('child_process');
 const path = require('path');
 
@@ -23,6 +6,10 @@ console.log("🚀 Lancement de l'outil complet");
 console.log("==============================\n");
 
 try {
+    // Étape 0 : Mise à jour automatique
+    console.log("🔄 Étape 0 : Vérification des mises à jour...");
+    require('./auto-updater');
+
     // Étape 1 : Déminification
     console.log("🔧 Étape 1 : Déminification (bake-deminify.bat)...");
     execSync('bake-deminify.bat', { stdio: 'inherit' });
