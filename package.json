@@ -1,0 +1,21 @@
+{
+  "name": "impact-dev-helper",
+  "version": "1.0.0",
+  "description": "Assistant de développement ImpactJS",
+  "author": "Patrick.A (Zeltron2k3)",
+  "bin": "main-runner.js",
+  "pkg": {
+    "assets": [
+      "bake-deminify.bat",
+      "extract-modules.js",
+      "json-markers-levels.js",
+      "patch-main-module.js"
+    ],
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": "dist",
+    "output": "ImpactDevHelper.exe",
+    "icon": "mon-icone.ico"
+  }
+}

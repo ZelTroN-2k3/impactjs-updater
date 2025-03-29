@@ -1,0 +1,10 @@
+[VersionInfo]
+FileDescription=ImpactJS Toolkit Helper
+FileVersion=2.1.0.0
+ProductName=ImpactDevHelper
+ProductVersion=1.0.0
+CompanyName=Zeltron2k3 Labs
+LegalCopyright=© 2025 Zeltron2k3
+OriginalFilename=ImpactDevHelper.exe
+InternalName=ImpactJS Helper
+Comments=Outil de traitement automatisé ImpactJS

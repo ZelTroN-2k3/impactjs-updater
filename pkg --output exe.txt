@@ -1,0 +1,2 @@
+cd c:\tools
+pkg . --output ImpactDevHelper.exe
